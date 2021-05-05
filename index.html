@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Pedido</title>
+    <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+    <!--Cabeçaro-->
+    <header>
+        <h2>Pizza Express | <span>PEDIDOS</span></h2>
+        <nav>
+            <ul>
+                <li><a href="#">Editar pedidos</a></li>
+                <li><a href="#">Relátorio do dia</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Pedido-->
+    
+    <main>
+        <section>
+            <fieldset>
+                <legend>PEDIDOS</legend>
+                <form class="" action="index.html">
+                    <!--Dados do pedidos-->
+                    <label for="">Dados do Pedido</label> <br>
+                    <input type="text" name="nome" placeholder="Nome"><br>
+                        <p class="erro">Você Precisa Digita seu Nome</p><br>
+                    <input type="tel" name="telefone" placeholder="telefone"><br>
+                    <!--Pizza-->
+                    <label for="">Pizza</label><br>
+                    <select name="" id="">
+                        <option value="">Selecione o sabor</option>
+                        <option value="">Calabresa</option>
+                        <option value="">Mussarela</option>
+                        <option value="">Frango</option>
+                        <option value="">catupiry com cheddar</option>
+                        <option value="">Romeu e Julieta</option>
+                    </select><br>
+                    <!--Bebidas-->
+                    <label for="">Bebida</label><br>
+                    <select name="" id="">
+                        <option value="">Selecione a Bebida</option>
+                        <option value="">Coca-cola 1L</option>
+                        <option value="">Coca-cola 2L</option>
+                        <option value="">Coca-cola 300ml</option>
+                        <option value="">Guana Antartica 1L</option>
+                        <option value="">Guana Antartica 300ml</option>
+                    </select><br><br>
+
+                    <input type="button" name="envia" value="Enviar Pedido">
+
+
+                </form>
+            </fieldset>
+        </section>
+    </main>
+
+
+    <script src="js/master.js"></script>
+</body>
+</html>

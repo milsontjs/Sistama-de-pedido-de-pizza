@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  Roboto, sans-serif;
+}
+
+body {
+    width: 100%;
+    
+}
+
+header {
+    width: 100%;
+    background-color: #000;
+    padding: 20px 10%;
+    float: left;
+}
+
+header h2 {
+    color: orangered;
+    float: left;
+}
+
+header h2 span {color: #fff;}
+
+header nav {float: right;}
+header nav ul { list-style: none;}
+
+header ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+header nav ul li a {
+    color: orangered;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #fff;
+    background-color: orangered;
+    padding: 10px;
+}
+
+main {
+    width: 100%;
+    float: left;
+}
+
+section {
+    width: 58%;
+    padding: 45px 6%;
+}
+
+section fieldset {
+    border: 2px solid #c3c3c3;
+    padding: 10px 5%;
+}
+
+section fieldset legend{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+section form {
+    width: 100%;
+}
+
+section form label {
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+    display: inline-block;
+}
+
+section form p {
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    display: none;
+}
+section form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+}
+
+section form input[type="text"]:hover { border: 1px solid red; padding: 10px;}
+
+section form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+}
+
+section form input[type="tel"]:hover { border: 1px solid red;}
+
+section form select {
+    width: 100%;
+    padding: 15px;
+    background-color: #c3c3c3;
+    color: #000;
+    cursor: pointer;
+}
+
+section form input[type="button"] {
+    width: 100%;
+    background-color: orangered;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+section form input[type="button"]:hover {
+    background-color: #ff050080;
+}
